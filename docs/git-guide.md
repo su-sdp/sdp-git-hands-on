@@ -4,7 +4,8 @@
 
 ```bash
 # 1. ブランチを作成して移動
-git checkout -b members/taro
+git switch -c members/taro
+※または git checkout -b members/taro
 
 # 2. ファイルを編集後、ステージング
 git add members/taro.md
@@ -23,7 +24,7 @@ git push origin members/taro
 | コマンド | 説明 |
 |---|---|
 | `git clone <URL>` | リポジトリをローカルにコピーする |
-| `git checkout -b <ブランチ名>` | 新しいブランチを作成して移動する |
+| `git switch -c <ブランチ名>` | 新しいブランチを作成して移動する |
 | `git status` | 現在の状態を確認する |
 | `git add <ファイル>` | 変更をステージングする |
 | `git commit -m "メッセージ"` | コミットする |
